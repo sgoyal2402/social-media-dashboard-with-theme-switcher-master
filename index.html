@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="dark">
+
+  <div class="main ml-auto mr-auto">
+  <h1 class="mt-5">Social Media Dashboard</h1> 
+  <div class="margin mode">
+    <div>Dark Mode</div> 
+    <div class="round">
+      <div class="circle"></div>
+    </div>
+
+  </div>
+  <p class="kk">Total Followers: 23,004</p> 
+
+    <!-- Dark Mode -->
+
+    <div class="card-deck mt-5">
+
+    <div class="card text-center mb-3 fb">
+      <div class="card-header mt-3 bg-transparent">
+        <img class="mr-2" src="images/icon-facebook.svg" alt="icon-facebook">
+          @nathanf
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">1987</h1>
+        <p class="card-text">FOLLOWERS</p>
+      </div>
+      <div class="card-footer mb-3 bg-transparent">
+        <img src="images/icon-up.svg" alt="icon-up">
+        12 Today
+      </div>
+    </div>
+
+   <div class="card text-center mb-3 ml-3 tweet">
+     <div class="card-header mt-3 bg-transparent">
+       <img class="mr-2" src="images/icon-twitter.svg" alt="icon-facebook">
+       @nathanf
+     </div>
+     <div class="card-body">
+       <h1 class="card-title">1044</h1>
+       <p class="card-text">FOLLOWERS</p>
+     </div>
+     <div class="card-footer mb-3 bg-transparent">
+       <img src="images/icon-up.svg" alt="icon-up">
+       99 Today
+     </div>
+   </div>
+
+
+     <div class="card text-center mb-3 ml-3 insta">
+       <div class="card-header mt-3 bg-transparent">
+         <img class="mr-2" src="images/icon-instagram.svg" alt="icon-facebook">
+        @realnathanf
+       </div>
+       <div class="card-body">
+         <h1 class="card-title">11k</h1>
+         <p class="card-text">FOLLOWERS</p>
+       </div>
+       <div class="card-footer mb-3 bg-transparent">
+         <img src="images/icon-up.svg" alt="icon-up">
+         1099 Today
+       </div>
+     </div>
+
+
+       <div class="card text-center mb-3 ml-3 youtube">
+         <div class="card-header mt-3 bg-transparent">
+           <img class="mr-2" src="images/icon-youtube.svg" alt="icon-facebook">
+            Nathan F.
+         </div>
+         <div class="card-body">
+           <h1 class="card-title">8239</h1>
+           <p class="card-text">SUBSCRIBERS</p>
+         </div>
+         <div class="card-footer mb-3 bg-transparent">
+           <img src="images/icon-down.svg" alt="icon-DOWN">
+           144 Today
+         </div>
+       </div>
+      </div>
+ 
+
+  
+     <h2 class="mt-5 mb-4 kk">Overview - Today</h2> 
+     <div class="card-deck overview">
+
+    <div class="card mb-3">
+      <div class="card-header mt-3 bg-transparent">
+      Page Views <img class="margin" src="images/icon-facebook.svg" alt="icon-facebook">
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">87</h1>
+        <p class="card-text margin"> <img src="images/icon-up.svg" alt="icon-up"> 3%</p>
+      </div>
+    </div>
+    
+    <div class="card mb-3">
+      <div class="card-header mt-3 bg-transparent">
+        Likes<img class=" margin" src="images/icon-facebook.svg" alt="icon-facebook">
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">52</h1>
+        <p class="card-text red margin"> <img src="images/icon-down.svg" alt="icon-down"> 2%</p>
+      </div>
+    </div>
+    
+    <div class="card mb-3">
+      <div class="card-header mt-3 bg-transparent">
+        Likes<img class=" margin" src="images/icon-instagram.svg" alt="icon-facebook">
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">5462</h1>
+        <p class="card-text margin"><img src="images/icon-up.svg" alt="icon-up"> 2257%</p>
+      </div>
+    </div>
+    
+    <div class="card mb-3">
+      <div class="card-header mt-3 bg-transparent">
+        Profile Views<img class=" margin" src="images/icon-instagram.svg" alt="icon-facebook">
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">52k</h1>
+        <p class="card-text margin"> <img src="images/icon-up.svg" alt="icon-up"> 1375%</p>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck mt-3 overview">
+    
+    <div class="card mb-3">
+      <div class="card-header mt-3 bg-transparent">
+        Retweets<img class=" margin" src="images/icon-twitter.svg" alt="icon-facebook">
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">117</h1>
+        <p class="card-text margin"> <img src="images/icon-up.svg" alt="icon-up"> 303%</p>
+      </div>
+    </div>
+    
+    <div class="card mb-3">
+      <div class="card-header mt-3 bg-transparent">
+        Likes<img class= " margin" src="images/icon-twitter.svg" alt="icon-facebook">
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">507</h1>
+        <p class="card-text margin"><img src="images/icon-up.svg" alt="icon-up"> 553%</p>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="card-header mt-3 bg-transparent">
+        Likes<img class=" margin" src="images/icon-youtube.svg" alt="icon-facebook">
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">107</h1>
+        <p class="card-text red margin"><img src="images/icon-down.svg" alt="icon-down">19%</p>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="card-header mt-3 bg-transparent">
+        Total Views<img class=" margin" src="images/icon-youtube.svg" alt="icon-facebook">
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">1407</h1>
+        <p class="card-text red margin"><img src="images/icon-down.svg" alt="icon-down">12%</p>
+      </div>
+    </div>
+</div>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Suryansh Goyal</a>.
+  </div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
